@@ -1,0 +1,26 @@
+.sombra{
+    margin: 20px;
+    padding: 20px;
+    text-align:center;
+    color: white;
+    background: lightblue;
+    font-family: impact;
+    font-size: 46px;
+    letter-spacing: 2px;
+    /*text-shadow: offsetX offsetY blurRadius color;
+    offsetX: desplazamiento horizontal de la sombra respecto al texto
+    offsetY: desplazamiento vertical de la sombra respecto al texto
+    blurRadius: difuminado de la sombra*/
+    text-shadow: 1px -1px 0px red, -1px 1px 0px red, -1px -1px red, 1px 1px red;
+}
+.sombra2{
+    margin: 20px;
+    padding: 20px;
+    text-align:center;
+    background: lightblue;
+    font-family: impact;
+    font-size: 46px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #ff5733, -2px -2px 4px #33ff57, 2px -2px 4px #5733ff, -2px 2px 4px #ff5733;
+}
